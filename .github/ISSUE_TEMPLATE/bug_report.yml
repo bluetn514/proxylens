@@ -1,0 +1,36 @@
+name: 检测结果有误
+description: 报告误判、漏判或程序无法运行
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 请不要粘贴代理订阅、节点地址、Token 或其他凭据。
+  - type: input
+    id: version
+    attributes:
+      label: ProxyLens 版本
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 实际发生了什么？你原本期待什么结果？
+    validations:
+      required: true
+  - type: textarea
+    id: report
+    attributes:
+      label: 已脱敏的报告
+      description: 粘贴前请再次检查隐私信息。
+      render: text
+
