@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 下载最新版
+    url: https://github.com/bluetn514/proxylens/releases/latest
+    about: 遇到问题前请先确认正在使用最新版。
