@@ -3,6 +3,9 @@ name: Complete initial release
 on:
   push:
     branches: ["main"]
+    paths:
+      - "ProxyLens-v0.1.0-source.zip"
+      - ".github/workflows/bootstrap.yml"
 
 permissions:
   contents: write
@@ -16,7 +19,7 @@ jobs:
         run: |
           unzip -o ProxyLens-v0.1.0-source.zip
           rm -f ProxyLens-v0.1.0-source.zip
-          rm -f .github/workflows/bootstrap.yml
+          rm -f .github/workflows/test.yml .github/workflows/release.yml
       - name: Commit project files
         run: |
           git config user.name "github-actions[bot]"
