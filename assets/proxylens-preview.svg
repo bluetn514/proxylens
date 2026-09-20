@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">ProxyLens application preview</title>
+  <desc id="desc">A preview of the ProxyLens Windows network diagnostics interface.</desc>
+  <rect width="1200" height="760" fill="#eef2f7"/>
+  <rect x="100" y="55" width="1000" height="650" rx="18" fill="#ffffff" stroke="#ccd5e1" stroke-width="2"/>
+  <path d="M118 55h964a18 18 0 0 1 18 18v105H100V73a18 18 0 0 1 18-18z" fill="#172033"/>
+  <text x="145" y="112" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="38" font-weight="700">ProxyLens</text>
+  <text x="145" y="148" fill="#cbd5e1" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="18">检查 Windows 上常见的网络和代理问题</text>
+  <rect x="145" y="207" width="145" height="50" rx="7" fill="#2563eb"/>
+  <text x="217" y="239" text-anchor="middle" fill="#fff" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="18" font-weight="700">重新检查</text>
+  <rect x="307" y="207" width="130" height="50" rx="7" fill="#fff" stroke="#cbd5e1"/>
+  <text x="372" y="239" text-anchor="middle" fill="#334155" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="17">复制报告</text>
+  <rect x="454" y="207" width="130" height="50" rx="7" fill="#fff" stroke="#cbd5e1"/>
+  <text x="519" y="239" text-anchor="middle" fill="#334155" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="17">保存报告</text>
+  <rect x="145" y="284" width="910" height="92" rx="8" fill="#fff" stroke="#dbe2ea"/>
+  <text x="172" y="322" fill="#172033" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="22" font-weight="700">检查完成：网络连接基本正常</text>
+  <text x="172" y="353" fill="#64748b" font-family="Microsoft YaHei UI,Arial,sans-serif" font-size="15">以下结果仅用于排查，不会自动更改配置。</text>
+  <g font-family="Microsoft YaHei UI,Arial,sans-serif">
+    <rect x="145" y="395" width="910" height="82" rx="8" fill="#fff" stroke="#dbe2ea"/>
+    <rect x="172" y="417" width="48" height="25" rx="4" fill="#17803d"/><text x="196" y="435" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">正常</text>
+    <text x="238" y="436" fill="#1e293b" font-size="18" font-weight="700">DNS 解析</text><text x="172" y="463" fill="#475569" font-size="14">github.com 与 microsoft.com 解析正常</text>
+    <rect x="145" y="492" width="910" height="82" rx="8" fill="#fff" stroke="#dbe2ea"/>
+    <rect x="172" y="514" width="48" height="25" rx="4" fill="#17803d"/><text x="196" y="532" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">正常</text>
+    <text x="238" y="533" fill="#1e293b" font-size="18" font-weight="700">HTTPS 连接</text><text x="172" y="560" fill="#475569" font-size="14">443 端口连接和 HTTPS 请求成功</text>
+    <rect x="145" y="589" width="910" height="82" rx="8" fill="#fff" stroke="#dbe2ea"/>
+    <rect x="172" y="611" width="48" height="25" rx="4" fill="#a15c00"/><text x="196" y="629" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">注意</text>
+    <text x="238" y="630" fill="#1e293b" font-size="18" font-weight="700">WinHTTP 代理</text><text x="172" y="657" fill="#475569" font-size="14">检测到单独配置，建议检查是否为旧代理残留</text>
+  </g>
+</svg>
