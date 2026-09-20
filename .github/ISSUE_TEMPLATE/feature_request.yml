@@ -1,0 +1,26 @@
+name: 功能建议
+description: 建议新的检测项或使用改进
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: situation
+    attributes:
+      label: 使用场景
+      description: 你在排查什么问题？目前最麻烦的步骤是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 希望怎样改进
+      description: 不必写技术方案，描述理想结果即可。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私检查
+      options:
+        - label: 我没有在内容中粘贴代理订阅、节点地址、Token 或账号凭据。
+          required: true
